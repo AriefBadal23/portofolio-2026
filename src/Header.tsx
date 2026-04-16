@@ -5,7 +5,7 @@ import SplitType from "split-type";
 interface IHeaderProps {
   role: string;
   name: string;
-  social: {
+  social?: {
     linkedin: string;
     github: string;
   };

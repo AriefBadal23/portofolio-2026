@@ -16,8 +16,8 @@ function App() {
 
   return (
     <div className='dark'>
-      <Header name='Arief Badal' role='Aspiring Backend .NET Developer | Skilled in C#, WebAPIs & Cloud' />
-      <About about={portoflio.about} />
+      <Header name='Arief Badal' role='Aspiring Backend & Fullstack Developer | C# · ASP.NET Core · React' />
+      <About/>
       <Navigation/>
       <ProjectContainer projects={portoflio.projects} />
       <Skills skills={portoflio.skills} />
